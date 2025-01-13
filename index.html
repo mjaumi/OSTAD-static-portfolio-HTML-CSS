@@ -26,23 +26,23 @@
     <header>
         <nav>
             <div>
-                <a href="/" class="nav-action-button">
+                <a href="#hero" class="nav-action-button">
                     <h1>Port<span>folio</span></h1>
                 </a>
             </div>
 
             <div class="right-nav">
-                <a href="" class="nav-button">
+                <a href="#skills" class="nav-button">
                     <i class="fa-solid fa-code"></i>
                     Skills
                 </a>
 
-                <a href="" class="nav-button">
+                <a href="#projects" class="nav-button">
                     <i class="fa-solid fa-sitemap"></i>
                     Projects
                 </a>
 
-                <a href="" class="nav-button">
+                <a href="#contact" class="nav-button">
                     <i class="fa-solid fa-address-book"></i>
                     Contact
                 </a>
@@ -53,7 +53,7 @@
     <!-- main here -->
     <main>
         <!-- hero section here -->
-        <section class="hero">
+        <section id="hero">
             <div class="text">
                 <h2>Hi, I'm <span>Milhan Joardar Aumi</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti nemo quos ex tenetur fuga, id
@@ -83,7 +83,7 @@
         </section>
 
         <!-- skills section here -->
-        <section class="skills">
+        <section id="skills">
             <h2>Skills</h2>
             <div class="text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, eaque, minima atque inventore quis
@@ -111,6 +111,35 @@
                     <img src="images/react-logo.webp" alt="react logo">
                     <span>ReactJS</span>
                 </div>
+            </div>
+        </section>
+
+        <!-- contact section here -->
+        <section id="contact">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloremque neque magni sed quisquam
+                    distinctio.
+                    Corporis quasi magni laudantium! Totam nostrum dolorem veniam. Minima recusandae laudantium ullam
+                    nihil nemo
+                    dolores quasi corporis inventore, sed, adipisci maiores cum explicabo earum eligendi eaque itaque
+                    qui tenetur
+                    quos sapiente dicta quis ratione assumenda.
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </section>
     </main>
