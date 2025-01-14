@@ -86,8 +86,7 @@ nav {
   align-items: end;
   justify-content: space-between;
 
-  padding: 50px 0;
-  margin-bottom: 100px;
+  padding: 100px 0;
   gap: 40px;
 }
 
@@ -135,9 +134,8 @@ nav {
 }
 
 /* skills section styles */
-
 #skills {
-  margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 #skills h2 {
@@ -182,10 +180,72 @@ nav {
   font-size: 18px;
 }
 
-/* contact section styles */
+/* projects section styles */
+#projects {
+  padding-top: 100px;
+}
 
+#projects h2 {
+  font-size: 35px;
+  text-align: center;
+  border-bottom: 2px solid var(--text-color);
+  margin-bottom: 20px;
+}
+
+#projects .text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.project-card .title {
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.project-card .description {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #666697;
+}
+
+.project-card .links {
+  display: flex;
+  gap: 10px;
+}
+
+.project-card .links a {
+  display: inline-block;
+  padding: 5px 16px;
+  border: 1px solid var(--link-color);
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  transition-duration: 300ms;
+}
+
+.project-card .links a:hover {
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+}
+
+/* contact section styles */
 #contact {
-  margin-bottom: 100px;
+  padding: 100px 0;
 }
 
 #contact h2 {
