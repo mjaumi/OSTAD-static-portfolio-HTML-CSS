@@ -238,3 +238,11 @@ nav {
 #contact .group form button:hover {
   filter: brightness(0.9);
 }
+
+/* footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
